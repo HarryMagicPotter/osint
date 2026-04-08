@@ -1,0 +1,113 @@
+import { ToolDatabase } from './types';
+
+export const toolDatabasePart14: ToolDatabase = {
+  "Gaming Platforms": [
+    { name: "NameMC", url: "https://namemc.com", tags: ["minecraft", "search"] },
+    { name: "TwitchTools", url: "https://twitchtools.com", tags: ["twitch", "tools"] },
+    { name: "SteamID Finder", url: "https://steamidfinder.com", tags: ["steam", "search"] },
+    { name: "SteamDB Calculator", url: "https://steamdb.info/calculator", tags: ["steam", "stats"] },
+    { name: "PSNProfiles", url: "https://psnprofiles.com", tags: ["playstation", "stats"] },
+    { name: "MineSight", url: "https://minesight.net", tags: ["minecraft", "search"] }
+  ],
+  "KYC & Sanctions": [
+    { name: "OpenSanctions", url: "https://opensanctions.org", tags: ["sanctions", "search"] },
+    { name: "Sanctions Explorer", url: "https://sanctionsexplorer.com", tags: ["sanctions", "search"] },
+    { name: "ImportYeti", url: "https://importyeti.com", tags: ["customs", "search"] },
+    { name: "Castellum.AI", url: "https://castellum.ai", tags: ["sanctions", "search"] }
+  ],
+  "Disinformation & Fact Checking": [
+    { name: "Google Fact Check Explorer", url: "https://toolbox.google.com/factcheck", tags: ["fact-check", "search"] },
+    { name: "EDMO Repository", url: "https://edmo.eu/repository", tags: ["disinfo", "search"] },
+    { name: "EUvsDisinfo Database", url: "https://euvsdisinfo.eu/disinformation-database", tags: ["disinfo", "search"] },
+    { name: "InfoOps Archive", url: "https://infoopsarchive.org", tags: ["disinfo", "search"] },
+    { name: "AmIReal", url: "https://amireal.tech", tags: ["ai", "detection"] }
+  ],
+  "Global Security & Travel": [
+    { name: "Travel Aware (UK)", url: "https://travelaware.campaign.gov.uk", tags: ["travel", "security"] },
+    { name: "Travel Maps (US)", url: "https://travelmaps.state.gov", tags: ["travel", "security"] },
+    { name: "Travel Advisories (US)", url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html", tags: ["travel", "security"] },
+    { name: "ESA ACT", url: "https://esa.act.gov.au", tags: ["emergency", "alerts"] },
+    { name: "Liveuamap", url: "https://liveuamap.com", tags: ["conflict", "map"] },
+    { name: "Global Incident Map", url: "https://globalincidentmap.com", tags: ["incident", "map"] }
+  ],
+  "Courts & Criminal Records": [
+    { name: "JudyRecords", url: "https://judyrecords.com", tags: ["court", "search"] },
+    { name: "CanLII", url: "https://canlii.org", tags: ["court", "canada"] },
+    { name: "Court & Tribunal Finder (UK)", url: "https://courttribunalfinder.service.gov.uk", tags: ["court", "uk"] },
+    { name: "Corrections.com", url: "https://corrections.com", tags: ["prison", "search"] }
+  ],
+  "Government & Corporations": [
+    { name: "Companies House (UK)", url: "https://find-and-update.company-information.service.gov.uk", tags: ["company", "uk"] },
+    { name: "Companies in the UK", url: "https://companiesintheuk.co.uk", tags: ["company", "uk"] },
+    { name: "VAT Search (EU)", url: "https://vat-search.eu", tags: ["vat", "eu"] },
+    { name: "Crunchbase", url: "https://crunchbase.com", tags: ["company", "search"] },
+    { name: "Corporation Wiki", url: "https://corporationwiki.com", tags: ["company", "usa"] },
+    { name: "AnnualReports.com", url: "https://annualreports.com", tags: ["company", "reports"] },
+    { name: "Offshore Leaks Database", url: "https://offshoreleaks.icij.org", tags: ["leak", "company"] },
+    { name: "Overseas Register (UK)", url: "https://find-and-update.company-information.service.gov.uk/overseas-register", tags: ["company", "uk"] },
+    { name: "OpenCorporates", url: "https://opencorporates.com", tags: ["company", "global"] },
+    { name: "OCCRP Dashboard", url: "https://dashboard.occrp.org", tags: ["investigation", "company"] },
+    { name: "LittleSis", url: "https://littlesis.org", tags: ["investigation", "company"] },
+    { name: "D&B Business Directory", url: "https://www.dnb.com", tags: ["company", "search"] },
+    { name: "Spoke", url: "https://www.spoke.com", tags: ["company", "search"] },
+    { name: "Vault", url: "https://vault.com", tags: ["company", "search"] },
+    { name: "Orbis Directory", url: "https://orbisdirectory.com", tags: ["company", "search"] },
+    { name: "Business.gov.nl", url: "https://business.gov.nl", tags: ["company", "netherlands"] },
+    { name: "BusinessIntel (ZA)", url: "https://businessintel.co.za", tags: ["company", "south-africa"] },
+    { name: "ASIC (AU)", url: "https://asic.gov.au", tags: ["company", "australia"] },
+    { name: "FEC Data", url: "https://www.fec.gov/data", tags: ["government", "usa"] },
+    { name: "The Org", url: "https://theorg.com", tags: ["company", "org-chart"] },
+    { name: "SEC EDGAR", url: "https://www.sec.gov/edgar", tags: ["company", "usa"] },
+    { name: "FEC", url: "https://fec.gov", tags: ["government", "usa"] },
+    { name: "DOI", url: "https://www.doi.gov", tags: ["government", "usa"] }
+  ],
+  "UK Data & Records": [
+    { name: "The National Archives (UK)", url: "https://www.nationalarchives.gov.uk", tags: ["archives", "uk"] },
+    { name: "Data.gov.uk", url: "https://data.gov.uk", tags: ["government", "uk"] },
+    { name: "Get The Data", url: "https://getthedata.com", tags: ["data", "uk"] },
+    { name: "TrustOnline (CCJ Search)", url: "https://www.trustonline.org.uk/ccj-search", tags: ["legal", "uk"] },
+    { name: "FreeUKBMD", url: "https://www.freeukbmd.org.uk", tags: ["genealogy", "uk"] },
+    { name: "FreeCensus", url: "https://www.freecensus.co.uk", tags: ["genealogy", "uk"] },
+    { name: "Genes Reunited", url: "https://www.genesreunited.co.uk/electoral-rolls", tags: ["genealogy", "uk"] },
+    { name: "FreeBMD", url: "https://www.freebmd.org.uk", tags: ["genealogy", "uk"] },
+    { name: "Zoopla", url: "https://zoopla.co.uk", tags: ["property", "uk"] }
+  ],
+  "Europe Specific Resources": [
+    { name: "North Data", url: "https://northdata.com", tags: ["company", "europe"] },
+    { name: "StayFriends (DE)", url: "https://stayfriends.de", tags: ["social", "germany"] },
+    { name: "XING", url: "https://xing.com", tags: ["social", "professional"] },
+    { name: "Gelbe Seiten (DE)", url: "https://gelbeseiten.de", tags: ["phonebook", "germany"] },
+    { name: "Das Örtliche (DE)", url: "https://oertliche.de", tags: ["phonebook", "germany"] },
+    { name: "LibreBorme (ES)", url: "https://libreborme.net", tags: ["company", "spain"] },
+    { name: "ABC Teléfonos (ES)", url: "https://www.abc.es/telefonos", tags: ["phonebook", "spain"] },
+    { name: "Información Empresas (ES)", url: "https://www.informacion.es/empresas", tags: ["company", "spain"] },
+    { name: "RNAC (ES)", url: "https://www.rnac.es", tags: ["government", "spain"] },
+    { name: "CNMC (ES)", url: "https://www.cnmc.es", tags: ["government", "spain"] },
+    { name: "DGT Multas (ES)", url: "https://www.dgt.es/multas", tags: ["government", "spain"] },
+    { name: "Gule Sider (NO)", url: "https://www.gulesider.no", tags: ["phonebook", "norway"] },
+    { name: "Proff (NO)", url: "https://proff.no", tags: ["company", "norway"] },
+    { name: "Finn.no", url: "https://finn.no", tags: ["classifieds", "norway"] },
+    { name: "Nasjonalbiblioteket (NO)", url: "https://nb.no", tags: ["archives", "norway"] },
+    { name: "Pages Jaunes (FR)", url: "https://www.pagesjaunes.fr", tags: ["phonebook", "france"] },
+    { name: "Pages Blanches (FR)", url: "https://www.pagesblanches.fr", tags: ["phonebook", "france"] },
+    { name: "Avec Copains (FR)", url: "https://aveccopains.com", tags: ["social", "france"] },
+    { name: "MatchID (FR)", url: "https://deces.matchid.io", tags: ["genealogy", "france"] },
+    { name: "Pappers (FR)", url: "https://pappers.fr", tags: ["company", "france"] },
+    { name: "Telefoongids (BE)", url: "https://www.telefoongids.be", tags: ["phonebook", "belgium"] },
+    { name: "Pages d'Or (BE)", url: "https://www.pagesdor.be", tags: ["phonebook", "belgium"] },
+    { name: "1212 (BE)", url: "https://12-12.be", tags: ["phonebook", "belgium"] },
+    { name: "KBO Public (BE)", url: "https://kbopub.economie.fgov.be", tags: ["company", "belgium"] },
+    { name: "Company & People (BG)", url: "https://www.company-and-people.bg", tags: ["company", "bulgaria"] },
+    { name: "Sladur (BG)", url: "https://sladur.com", tags: ["social", "bulgaria"] },
+    { name: "map.geo.admin.ch", url: "https://map.geo.admin.ch", tags: ["map", "switzerland"] },
+    { name: "tel.search.ch", url: "https://tel.search.ch", tags: ["phonebook", "switzerland"] },
+    { name: "Zefix (CH)", url: "https://zefix.ch", tags: ["company", "switzerland"] },
+    { name: "Auto-Strassenverkehr (CH)", url: "https://www.auto-strassenverkehr.admin.ch", tags: ["government", "switzerland"] },
+    { name: "ILR (LU)", url: "https://www.ilr.lu", tags: ["government", "luxembourg"] },
+    { name: "Editus (LU)", url: "https://editus.lu", tags: ["phonebook", "luxembourg"] },
+    { name: "Geoportail (LU)", url: "https://map.geoportail.lu", tags: ["map", "luxembourg"] },
+    { name: "LBR (LU)", url: "https://www.lbr.lu", tags: ["company", "luxembourg"] },
+    { name: "Ratsit (SE)", url: "https://www.ratsit.se", tags: ["people-search", "sweden"] },
+    { name: "Eniro (SE)", url: "https://www.eniro.se", tags: ["phonebook", "sweden"] }
+  ]
+};
